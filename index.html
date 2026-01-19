@@ -31,6 +31,7 @@
   </head>
 
   <body class="bg-primary text-white overflow-x-hidden font-inter">
+    <!-- header part start -->
     <header class="border border-purple-400/20 p-4">
       <div class="max-w-7xl mx-auto flex justify-between items-center">
         <h2 class="text-2xl font-bold">
@@ -40,7 +41,7 @@
           >
         </h2>
 
-        <nav class="hidden lg:flex gap-10 text-base text-white/70">
+        <nav class="hidden md:flex gap-10 text-base text-white/70">
           <a href="#">About</a>
           <a href="#">Episodes</a>
           <a href="#">Host</a>
@@ -48,20 +49,67 @@
 
         <div class="flex items-center gap-4">
           <button
-            class="hidden lg:block bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white/70 px-6 py-2 rounded-full text-base font-semibold cursor-pointer"
+            class="hidden md:block bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white/70 px-6 py-2 rounded-full text-base font-semibold cursor-pointer"
           >
             Subscribe <i class="fa-solid fa-arrow-right-long text-white/70"></i>
           </button>
           <img
             src="images/hamburger-menu.png"
-            class="w-6 lg:hidden cursor-pointer"
+            class="w-6 md:hidden cursor-pointer"
           />
         </div>
       </div>
     </header>
-
     <!-- header part end -->
 
-    
+    <main>
+      <!-- banner part start -->
+      <section
+        id="banner_part"
+        class="bg-[url('images/hero-bg.png')] min-h-screen w-full bg-cover bg-center bg-no-repeat relative pt-10"
+      >
+        <div
+          class="relative w-[200px] md:w-[350px] h-[200px] md:h-[350px] flex justify-center items-center mx-auto rounded-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 border border-[#2A186C] border-[8px] fixed"
+        >
+          <div>
+            <img src="images/microphone.png" alt="" class="w-12 md:w-20" />
+          </div>
+        </div>
+        <div class="text-center px-2.5 md:p-0">
+          <h1 class="mt-4 md:mt-10 text-3xl md:text-6xl font-bold mb-2">
+            TechWave
+          </h1>
+          <p class="text-xs md:text-sm">
+            Your daily dose of tech insights, productivity hacks, and personal
+            growth
+          </p>
+          <div
+            class="flex flex-col md:flex-row items-center gap-2 justify-center mt-2 md:mt-6"
+          >
+            <button
+              class="block bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white/70 px-3 md:px-6 py-2 rounded-full text-sm md:text-base font-semibold cursor-pointer"
+            >
+              <i class="fa-brands fa-spotify"></i>
+              Listen on Spotify
+            </button>
+            <button
+              class="border border-green-400 text-green-400 px-6 py-2 rounded-full text-sm font-semibold cursor-pointer"
+            >
+              Subscribe
+              <i class="fa-regular fa-envelope"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- banner part end -->
+
+      <section>
+        
+      </section>
+
+
+
+
+    </main>
   </body>
 </html>
