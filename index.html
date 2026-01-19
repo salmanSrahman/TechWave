@@ -22,7 +22,8 @@
 
     <style type="text/tailwindcss">
       @theme {
-        --color-primary: #230e3d;
+        --color-primary: #1a0b2e;
+        --color-secondary: #250d44;
         --color-green: #00ff88;
 
         --font-inter: "Inter", sans-serif;
@@ -30,11 +31,11 @@
     </style>
   </head>
 
-  <body class="bg-primary text-white overflow-x-hidden font-inter">
+  <body class="bg-primary overflow-x-hidden font-inter">
     <!-- header part start -->
-    <header class="border border-purple-400/20 p-4">
+    <header class="border-b border-purple-900/20 p-4">
       <div class="max-w-7xl mx-auto flex justify-between items-center">
-        <h2 class="text-2xl font-bold">
+        <h2 class="text-3xl font-bold text-white/70">
           Tech<span
             class="bg-gradient-to-t from-indigo-500 via-purple-500 to-pink-50 bg-clip-text text-transparent"
             >Wave</span
@@ -66,7 +67,7 @@
       <!-- banner part start -->
       <section
         id="banner_part"
-        class="bg-[url('images/hero-bg.png')] min-h-screen w-full bg-cover bg-center bg-no-repeat relative pt-10"
+        class="bg-[url('images/hero-bg.png')] min-h-screen w-full bg-cover bg-center bg-no-repeat relative pt-10 text-white/70"
       >
         <div
           class="relative w-[200px] md:w-[350px] h-[200px] md:h-[350px] flex justify-center items-center mx-auto rounded-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 border border-[#2A186C] border-[8px] fixed"
@@ -76,7 +77,7 @@
           </div>
         </div>
         <div class="text-center px-2.5 md:p-0">
-          <h1 class="mt-4 md:mt-10 text-3xl md:text-6xl font-bold mb-2">
+          <h1 class="mt-4 md:mt-10 text-3xl md:text-5xl font-bold mb-2">
             TechWave
           </h1>
           <p class="text-xs md:text-sm">
@@ -103,13 +104,60 @@
       </section>
       <!-- banner part end -->
 
-      <section>
-        
+      <!-- about podcast part start -->
+      <section id="about_part" class="py-5 md:pb-20">
+        <div class="max-w-7xl mx-auto p-2.5 md:p-0 text-center">
+          <h2 class="text-3xl md:text-5xl font-bold mb-4 text-white/70">
+            About The Podcast
+          </h2>
+          <p class="text-white/60 max-w-2xl mx-auto mb-2 md:mb-10 leading-7">
+            TechWave is your go-to podcast for staying ahead in the fast-paced
+            world of technology. We break down complex topics into digestible
+            insights, explore productivity strategies that actually work, and
+            share stories of personal growth from industry leaders. Join
+            thousands of young professionals and tech enthusiasts who start
+            their day with TechWave.
+          </p>
+
+          <div
+            class="grid grid-cols-2 md:grid-cols-4 gap-8 pt-5 md:pt-10 border-t border-solid border-purple-900/20"
+          >
+            <div>
+              <h3 class="text-3xl text-green-400 font-bold">150K+</h3>
+              <p class="text-white/60 uppercase text-sm md:text-sm">
+                Monthly Listeners
+              </p>
+            </div>
+            <div>
+              <h3 class="text-3xl text-green-400 font-bold">200+</h3>
+              <p class="text-white/60 uppercase text-sm md:text-sm">
+                Episodes Published
+              </p>
+            </div>
+            <div>
+              <h3 class="text-3xl text-green-400 font-bold">
+                4.9<i class="fa-solid fa-star"></i>
+              </h3>
+              <p class="text-white/60 uppercase text-sm md:text-sm">
+                Average Rating
+              </p>
+            </div>
+            <div>
+              <h3 class="text-3xl text-green-400 font-bold">50+</h3>
+              <p class="text-white/60 uppercase text-sm md:text-sm">
+                Industry Experts
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
+      <!-- about podcast part end -->
 
+      <!-- why choose part start -->
+       <section id="choose_part">
 
-
-
+       </section>
+      <!-- why choose part end -->
     </main>
   </body>
 </html>
